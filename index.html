@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lady</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="container mx-[auto]">
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  <li><a><samp class="text-[#FF4240]">Home</samp></a></li>
+                  <li><a>About</a></li>
+                  <li><a>Pages</a></li>
+                  <li><a>Contact</a></li>
+                </ul>
+              </div>
+              <a class="text-3xl font-extrabold">Dealer<samp class="text-[#FF4240]">’</samp>s</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a><samp class="text-[#FF4240]">Home</samp></a></li>
+                <li><a>About</a></li>
+                <li><a>Pages</a></li>
+                <li><a>Contact</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+                <div><img src="images/f2.svg" alt=""></div>
+              <a href="#buy-girl" class="btn bg-[#FF4240] text-white">Buy Anything</a>
+            </div>
+          </div>
+          <section>
+            <div class="container bg-[#FF4240] text-center rounded-b-3xl">
+                <h3 class=" font-bold  text-black">Budget: <span class="price-color" id="budget">14000</span><samp class="font-extrabold">৳</samp></h3>
+                <h3 class=" font-bold  text-black">Select: <span class="price-color" id="select">0</span></h3>
+                <h3 class=" font-bold  text-black">Product Buy: <span class="price-color" id="girl">4</span></h3>
+              </div>
+          </section>
+    </header>
+    <main>
+        <section class="container mx-auto mt-5">
+          <div class="carousel w-full rounded-3xl">
+            <div id="slide1" class="carousel-item relative w-full">
+              <img src="images/Banner Image.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle">❮</a> 
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide2" class="carousel-item relative w-full">
+              <img src="images/Vectorrr.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a> 
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+          </div>
+        </section>
+        <section class="mt-5 mb-5 lg:mt-10 lg:mb-10">
+          <div class="lg:flex justify-around">
+            <div class="bg-[#FF4240] h-[220px] w-auto lg:w-[600px] flex rounded-xl items-center">
+                <div class="font-inter p-4 lg:p-20 space-y-2">
+                <h1 class="text-black text-3xl font-extrabold">20% OFF</h1>
+                <p class="font-bold">on your next purchase</p>
+                <p>use by January 2024</p>
+                </div>
+                <div><img src="images/cupon-devider.png" alt=""></div>
+                <div class="font-raleway p-2 lg:p-10">
+                <h1 class="text-black text-3xl font-bold">RAFA24</h1>
+                <p>Coupon Code</p>
+                </div>
+            </div>
+        </section>
+            <section id="buy-girl" class="container mx-auto lg:h-[1050px] bg-white rounded-t-3xl mt-8 p-8">
+              <nav class="grid lg:grid-cols-2">
+                <nav class="space-y-6">
+                  <h1 class="font-bold text-2xl text-black">Select Your Parson</h1>
+                  <hr class="border-dashed">
+                  <div class="flex justify-between">
+                    <h1 class="flex"><img src="images/seat-gray.png" alt="">Available</h1>
+                    <h1 class="flex"></h1><span class="text-[#1DD100]">Selected</span></h1>
+                  </div>
+                  <hr class="border-dashed">
+                  <div class="grid lg:grid-cols-3 gap-2">
+                    <div class="card bg-base-100 shadow-xl">
+                      <figure class="px-10 pt-10">
+                        <img src="images/Rectangle 3.png" alt="Shoes" class="rounded-xl" />
+                      </figure>
+                      <div class="card-body items-center text-center">
+                        <h2 class="card-title">Bag</h2>
+                        <p>Good Worker</p>
+                        <p>3500</p>
+                        <div class="card-actions">
+                          <button class="btn btn-primary bg-[#1DD100] border-none">Buy Now</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card bg-base-100 shadow-xl">
+                      <figure class="px-10 pt-10">
+                        <img src="images/Rectangle 4.png" alt="Shoes" class="rounded-xl" />
+                      </figure>
+                      <div class="card-body items-center text-center">
+                        <h2 class="card-title">i Bag</h2>
+                        <p>Good Worker</p>
+                        <p>3500</p>
+                        <div class="card-actions">
+                          <button class="btn btn-primary bg-[#1DD100] border-none">Buy Now</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card bg-base-100 shadow-xl">
+                      <figure class="px-10 pt-10">
+                        <img src="images/Rectangle 5.png" alt="Shoes" class="rounded-xl" />
+                      </figure>
+                      <div class="card-body items-center text-center">
+                        <h2 class="card-title">Shoe</h2>
+                        <p>Good Worker</p>
+                        <p>3500</p>
+                        <div class="card-actions">
+                          <button class="btn btn-primary bg-[#1DD100] border-none">Buy Now</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card bg-base-100 shadow-xl">
+                      <figure class="px-10 pt-10">
+                        <img src="images/Rectangle 6.png" alt="Shoes" class="rounded-xl" />
+                      </figure>
+                      <div class="card-body items-center text-center">
+                        <h2 class="card-title">i Shoe</h2>
+                        <p>Good Worker</p>
+                        <p>3500</p>
+                        <div class="card-actions">
+                          <button class="btn btn-primary bg-[#1DD100] border-none">Buy Now</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card bg-base-100 shadow-xl">
+                      <figure class="px-10 pt-10">
+                        <img src="images/Rectangle 7.png" alt="Shoes" class="rounded-xl" />
+                      </figure>
+                      <div class="card-body items-center text-center">
+                        <h2 class="card-title">Glass</h2>
+                        <p>Good Worker</p>
+                        <p>3500</p>
+                        <div class="card-actions">
+                          <button class="btn btn-primary bg-[#1DD100] border-none">Buy Now</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card bg-base-100 shadow-xl">
+                      <figure class="px-10 pt-10">
+                        <img src="images/Rectangle 8.png" alt="Shoes" class="rounded-xl" />
+                      </figure>
+                      <div class="card-body items-center text-center">
+                        <h2 class="card-title">Cury</h2>
+                        <p>Good Worker</p>
+                        <p>3500</p>
+                        <div class="card-actions">
+                          <button class="btn btn-primary bg-[#1DD100] border-none">Buy Now</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </nav>
+                  <nav class="space-y-6 lg:pl-8 mt-5 lg:mt-0">
+                  <h1 class="font-bold text-2xl text-black">Select Your Parson</h1>
+                  <hr class="border-dashed">
+                  <div class="min-h-auto w-[w-433px] bg-[#F7F8F8] rounded-2xl p-8 space-y-4">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>Name</th>
+                          <th>Facility</th>
+                          <th>Price</th>
+                        </tr>
+                      <tbody id="book-seat-info">
+                          
+                      </tbody>
+                      </thead>
+                    </table>
+            
+                    <hr class="border-dashed">
+                    <div class="flex justify-between">
+                      <h1 class="font-bold text-black">Total Price</h1>
+                      <h1 class="font-bold text-black">BDT <samp id="total-price">0</samp><samp class="font-extrabold">৳</samp></h1>
+                    </div>
+                    <div class="flex items-center border border-gray-300 rounded-md overflow-hidden">
+                      <input id="coupon-input" type="text" class="py-2 px-4 w-full focus:outline-none" placeholder="Have any coupon ?">
+                      <button onclick="updateGrandCost('disscount')" class="bg-[#1DD100] text-white px-4 py-2">Apply</button>
+                    </div>
+                    <div class="flex justify-between">
+                      <h1 class="font-bold text-black">Grand Price</h1>
+                      <h1 class="font-bold text-black">BDT <samp id="grand-total">0</samp><span class="font-extrabold">৳</span></h1>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="space-y-3">
+                      <label class=" text-black font-bold" for="">Your Name*</label>
+                      <input type="text" placeholder="Enter your name" class="w-full h-[64px] p-5 rounded-2xl bg-[#F7F8F8]">
+                    </div>
+                  </div>
+                  <div>
+                    <div class="space-y-3">
+                      <label class=" text-black font-bold" for="">Phone Number*</label>
+                      <input type="text" id="inputField" placeholder="Enter your phone number" class="w-full p-5 h-[64px] rounded-2xl bg-[#F7F8F8]">
+                    </div>
+                  </div>
+                  <div>
+                    <div class="space-y-3">
+                      <label class=" text-black font-bold" for="">Email ID</label>
+                      <input type="text" placeholder="Enter your email id" class="w-full p-5 h-[64px] rounded-2xl bg-[#F7F8F8]">
+                    </div>
+                  </div>
+                  <button id="open-next" onclick="my_modal_5.showModal()" class="btn w-full text-white bg-[#1DD100]" disabled>Next</button>
+                  <div class="flex justify-around">
+                    <h1><u class="font-raleway">Terms and Conditions</u></h1>
+                    <h1><u class="font-raleway">Cancellation Policy</u></h1>
+                  </div>
+                </nav>
+              </nav>
+            </section>
+          </main>
+        </section>
+    </main>
+        <footer class="footer p-10 bg-base-300 text-base-content container mx-auto">
+            <nav>
+              <h6 class="footer-title">Services</h6> 
+              <a class="link link-hover">Branding</a>
+              <a class="link link-hover">Design</a>
+              <a class="link link-hover">Marketing</a>
+              <a class="link link-hover">Advertisement</a>
+            </nav> 
+            <nav>
+              <h6 class="footer-title">Company</h6> 
+              <a class="link link-hover">About us</a>
+              <a class="link link-hover">Contact</a>
+              <a class="link link-hover">Jobs</a>
+              <a class="link link-hover">Press kit</a>
+            </nav> 
+            <nav>
+              <h6 class="footer-title">Social</h6> 
+              <div class="grid grid-flow-col gap-4">
+                <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path></svg></a>
+                <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path></svg></a>
+                <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg></a>
+              </div>
+            </nav>
+          </footer>
+        <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+                  <div class="modal-box text-center">
+                  <img class="flex mx-auto" src="images/success.png" alt="">
+                  <h3 class="font-bold text-lg text-green-600">Success</h3>
+                  <p class="py-4 text-black font-bold">Thank you for booking our Girls. We are working hard to the best service and deals for you.</p>
+                  <p>Shortly you a confirm in your mail</p>
+                  <div class="modal-action">
+                    <form method="dialog" class="flex mx-auto">
+              <button class="btn bg-green-600 text-white">Continue</button>
+            </form>
+          </div>
+          </div>
+        </dialog>
+    <script src="./script.js"></script>
+</body>
+</html>
